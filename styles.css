@@ -1,0 +1,275 @@
+/* Variabili */
+:root {
+    --nero: #333;
+    --bianco: #fff;
+    --viola-kebab: #7f00c3; /* Colore viola */
+    --grigio-sfondo: #f4f4f4;
+    --grigio-testo: #888;
+}
+
+/* Stili generali */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--nero);
+    overflow-x: hidden;
+}
+
+/* Effetto Hover per ingrandire l'immagine */
+img:hover {
+    transform: scale(1.1); /* Ingrandisce l'immagine del 10% */
+    transition: transform 0.3s ease; /* Transizione fluida */
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--nero);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin-right: auto;
+    padding-left: 20px;
+}
+
+.navbar-link {
+    color: var(--bianco);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: var(--viola-kebab);
+}
+
+.navbar-link.active {
+    color: var(--viola-kebab);
+}
+
+/* Hero section */
+.hero {
+    background-color: var(--viola-kebab);
+    color: var(--bianco);
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero-logo {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-divider {
+    width: 80px;
+    height: 3px;
+    background-color: var(--bianco);
+    margin: 0 auto 20px;
+}
+
+.hero-hashtag {
+    font-style: italic;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+/* Sezione Prenotazione */
+.home-section {
+    padding: 80px 20px;
+    background-color: var(--bianco);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--nero);
+}
+
+.section-text {
+    font-size: 1.2rem;
+    color: var(--grigio-testo);
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Pulsante Ordina */
+.order-button {
+    display: inline-block;
+    background-color: #000000; /* Nero puro */
+    color: #ffffff; /* Testo bianco */
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.order-button:hover {
+    background-color: #333333; /* Nero più scuro al passaggio del mouse */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Sezione Orari */
+.orari-section {
+    padding: 60px 20px;
+    background-color: var(--grigio-sfondo);
+}
+
+.orari-box {
+    background-color: var(--grigio-sfondo);
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orari-title {
+    font-weight: 700;
+    color: var(--nero);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.orari-box p {
+    font-size: 1.1rem;
+    color: var(--nero);
+    margin-top: 10px;
+}
+
+/* Sezione Dove Siamo */
+.location-section {
+    padding: 60px 0;
+    background-color: var(--grigio-sfondo);
+}
+
+.location-title-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.location-title {
+    font-size: 2.5rem;
+    color: var(--nero);
+    font-weight: 700;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 30px 20px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer div {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p {
+    margin: 0 0 10px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Mappa */
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #ddd;
+}
+
+.map-container iframe {
+    border: none;
+    filter: grayscale(20%);
+}
+
+.zoom-card {
+    transition: transform 0.3s ease;
+}
+
+.zoom-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.orari-box {
+    background-color: var(--grigio-sfondo);
+    width: 80%;
+    max-width: 1200px;
+    height: 250px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.orari-title {
+    font-weight: 700;
+    color: var(--nero);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.orari-box p {
+    font-family: 'Montserrat', sans-serif;  
+    font-style: italic; /* Corsivo aggiunto */
+    font-size: 1.1rem;
+    color: var(--nero);
+    margin: 0; /* Niente margini */
+    line-height: 1.2; /* Testo più stretto */
+    padding: 1px 0; /* Spazio minimo */
+}
+
+.orari-box p:first-of-type {
+    margin-top: 0;
+}
+
+
+
