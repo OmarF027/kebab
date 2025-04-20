@@ -68,27 +68,23 @@
     </a>
 </section>
 
-    <!-- Sezione Dove Siamo -->
-    <section class="location-section">
-        <div class="container">
-            <div class="location-title-container">
-                <h2 class="location-title">DOVE CI TROVI</h2>
-            </div>
-            <div class="map-container ratio ratio-16x9">
-                <iframe 
-<<<<<<< HEAD
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.6029929564655!2d11.255813315676455!3d43.769560979118804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a5612d00b95c9%3A0xe5fdf99c1ff5611e!2sPiazza%20del%20Duomo%2C%2050122%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1713631747069!5m2!1sit!2sit" 
-=======
-                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.6029929564655!2d11.255813315676455!3d43.769560979118804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a5612d00b95c9%3A0xe5fdf99c1ff5611e!2sPiazza%20del%20Duomo%2C%2050122%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1713631747069!5m2!1sit!2sit" 
->>>>>>> f06b5ceee1fc633f165e32642a3a452c50e2aeb1
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade"
-                    title="Mappa della posizione di DONER KEBAB 21">
-                </iframe>
-            </div>
+  <!-- Sezione Dove Siamo -->
+<section class="location-section">
+    <div class="container">
+        <div class="location-title-container">
+            <h2 class="location-title">DOVE CI TROVI</h2>
         </div>
-    </section>
+        <div class="map-container ratio ratio-16x9">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.6029929564655!2d11.255813315676455!3d43.769560979118804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a5612d00b95c9%3A0xe5fdf99c1ff5611e!2sPiazza%20del%20Duomo%2C%2050122%20Firenze%20FI!5e0!3m2!1sit!2sit!4v1713631747069!5m2!1sit!2sit" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Mappa della posizione di DONER KEBAB 21">
+            </iframe>
+        </div>
+    </div>
+</section>
 
     <!-- Footer -->
     <footer>
